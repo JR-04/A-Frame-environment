@@ -16,8 +16,22 @@
        <img id="groundTexture" src="https://jr-04.github.io/a-frame-environment/assets/floor_leaves.jpg" crossorigin="anonymous">
        <img id="wik01" src="https://jr-04.github.io/a-frame-environment/assets/wik_forest.jpg" crossorigin="anonymous">
        
+       <a-curvedimage src="#wik01" 
+                      radius="5.7" 
+                      theta-length="180" 
+                      height="9" 
+                      position="0 8.3 14.9" 
+                      rotation="0 -90 0" 
+                      scale="0.48 0.88 0.62" 
+                      material="" 
+                      geometry="height: 8.33; 
+                                radius: 9.09; 
+                                thetaLength: 160" 
+                      id="forestInfo">
+      </a-curvedimage>
+       
       
-       <a-entity id="ground" geometry="primitive: cylinder; height: 1.24" scale="60 1 60" position="0 -34.84 0" material="color: #ffffff" src="https://jr-04.github.io/a-frame-environment/assets/floor_leaves.jpg"></a-entity> 
+       <a-entity id="ground" geometry="primitive: cylinder; height: 1.24" scale="60 1 60" position="0 -34.84 0" material="color: #ffffff" src="#groundTexture"></a-entity> 
       
        <a-sky id="background" src="#skyLeaves" theta-length="90" radius="30" position="0 -36.90085 0" material="" geometry="" scale="2 2 2" visible=""></a-sky>
        
